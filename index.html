@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Searching Country Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./country.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="country-data" id="country_data">
+
+      <h1> List of World Countries</h1>
+      <h3>Total Number of countries are 193</h3>
+      <div class=btn>
+      <button id="startWord">Starting Word</button>
+      <button id="searchWith">Search with any word</button>
+      <button id="sorting">
+        <i class="fas fa-sort-alpha-down"></i></button>
+      </div>
+      <div class="input-wrapper"></div>
+      <input type="text" class="searchCountry" placeholder="Search country" />
+    </div>
+  </div>
+
+  <div class="countries">
+  </div>
+  </div>
+
+  <script src="./country_data.js"></script>
+  <script src="./search_country.js"></script>
+
+</body>
+
+</html>
